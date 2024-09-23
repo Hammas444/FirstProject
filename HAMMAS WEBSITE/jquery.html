@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+
+// this is task 1
+$(document).ready(function(){
+$("h1,h2,h3,h4").hide();
+$("p").show();
+
+
+
+});
+
+
+
+
+$(document).ready(function(){
+$(".btn1").click(function(){
+$(".1").hide();
+$(".3").hide();
+
+
+
+});
+});
+
+$(document).ready(function(){
+$(".btn2").click(function(){
+$("h1,h2,h3,h4").show();
+
+
+
+
+});
+
+});
+
+
+
+
+// this is task 2
+
+
+$(document).ready(function(){
+$("button").click(function(){
+    $("ul li:last-child").hide();
+
+
+});    
+
+
+
+
+});
+
+
+// this is task 3
+$(document).ready(function(){
+$(".div1").click(function(){
+$(".div2").slideToggle();
+
+
+
+});
+
+
+
+
+});
+
+
+
+
+// this is task 4
+
+$(document).ready(function(){
+$(".btn3").click(function(){
+$(".h").fadeOut("slow");
+$(".d").fadeOut("slow");
+$(".e").fadeOut("slow");
+});
+
+
+});
+
+
+
+
+
+// this is task 5
+
+$(document).ready(function(){
+$(".btn4").click(function(){
+    
+$(".div3").animate({
+    height:'300px',
+    width:'200px',
+
+
+
+
+});
+$(".div4").animate({
+    height:'300px',
+    width:'200px',
+
+
+
+
+});
+});
+
+});
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<h1>headind 1</h1>
+<h2>heading 2</h2>
+<h3>heading 3</h3>
+<h4>heading 4</h4>
+
+
+<p class="1">line 1</p>
+<p>line 2</p>
+<p class="3">line 3</p>
+<p>line 4</p>
+
+
+<button class="btn1">click here to hide paragraph line 1 & 3</button>
+<button class="btn2">click here to show headings</button>
+
+
+
+
+
+
+<p>list:1</p>
+<ul>
+<li>car</li>
+<li>bike</li>
+<li>truck</li>
+<li>train</li>
+<li>aeroplane</li>
+
+
+</ul>
+
+<p>list:2</p>
+<ul>
+<li>car</li>
+<li>bike</li>
+<li>truck</li>
+<li>train</li>
+<li>aeroplane</li>
+
+
+</ul>
+
+<p>list:3</p>
+<ul>
+<li>car</li>
+<li>bike</li>
+<li>truck</li>
+<li>train</li>
+<li>aeroplane</li>
+
+
+</ul>
+
+<button>click here to hide aeroplane from all the lists</button>
+
+
+
+
+
+<div class="div1" style="background-color:chartreuse ;padding:20px ;text-align: center;">click to slide down/up panel</div>
+<div class="div2" style="background-color:rgb(56, 222, 237) ;padding: 90px;display: none;text-align: center;">HELLO EVERYONE!</div>
+
+
+
+
+<div class="h" style="background-color:red ;height:70px;width:70px"></div>
+<div class="d" style="background-color:green ;height:70px;width:70px"></div>
+<div class="e" style="background-color:blue ;height:70px;width:70px"></div>
+
+<button class="btn3">click here to fade out boxes</button>
+
+
+
+
+
+
+
+<div class="div3"  style="background-color: yellowgreen;height:60px;width:60px"></div>
+<div class="div4" style="background-color: red;height:60px;width:60px"></div>
+
+
+
+<button class="btn4">start animation</button>
+
+</body>
+
+</html>
